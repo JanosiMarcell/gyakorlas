@@ -10,6 +10,9 @@
     border: solid thin gray;
     padding: 10px;
     border-radius: ;
+    padding-bottom: 20px;
+    position: relative;
+
 }
 .newsletter button{
     background-color:#3cb878 ;
@@ -18,6 +21,7 @@
     display: block;
     width: 100%;
     height: 30px;
+    margin-bottom: 10px;
 }
 
 .newsletter input#email{
@@ -33,4 +37,14 @@
 
 .newsletter h3{
     margin-top: 0;
+}
+
+.newsletter #terms{
+    position: relative;
+    top: 1px;
+}
+.newsletter #closex{
+    position: absolute;
+    top: 0px;
+    right: 4px;
 }
